@@ -13,5 +13,7 @@ require('lspconfig').gopls.setup({})
 require('lspconfig').clangd.setup({})
 require('lspconfig').svelte.setup({})
 require('lspconfig').zls.setup({})
+require('lspconfig').bashls.setup({})
+require('lspconfig').pyright.setup({})
 
 lsp.setup()
