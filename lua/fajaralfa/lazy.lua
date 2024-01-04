@@ -18,6 +18,11 @@ local plugins = {
     { "tpope/vim-fugitive" },
     { "nvim-treesitter/nvim-treesitter" },
     { "ziglang/zig.vim" },
+    { 'sbdchd/neoformat' },
+    {
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+    },
     {
         "nvim-telescope/telescope.nvim",
         tag = "0.1.3",
@@ -25,12 +30,10 @@ local plugins = {
     },
     {
         "VonHeikemen/lsp-zero.nvim",
-        branch = "v2.x",
+        branch = "v3.x",
         dependencies = {
             -- LSP Support
             { "neovim/nvim-lspconfig" }, -- Required
-            { "williamboman/mason.nvim" }, -- Optional
-            { "williamboman/mason-lspconfig.nvim" }, -- Optional
             -- Autocompletion
             { "hrsh7th/nvim-cmp" }, -- Required
             { "hrsh7th/cmp-nvim-lsp" }, -- Required
