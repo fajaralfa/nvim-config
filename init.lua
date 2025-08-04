@@ -1,4 +1,4 @@
-require('fajaralfa.lazy')
-require('fajaralfa.set')
-require('fajaralfa.remap')
-require('fajaralfa.lspzero')
+require('config.lazy')
+require('config.set')
+require('config.remap')
+require('config.lspzero')
