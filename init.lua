@@ -1,5 +1,6 @@
 require('config.lazy')
 require('config.set')
 require('config.remap')
-require('config.nvim-cmp')
+require('plugin.nvim-cmp')
 require('plugin.mason')
+require('plugin.treesitter')
