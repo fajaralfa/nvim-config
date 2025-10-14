@@ -51,6 +51,11 @@ require("lazy").setup({
           build = ":TSUpdate"
       },
       {
+          "scottmckendry/cyberdream.nvim",
+          lazy = false,
+          priority = 1000,
+      },
+      {
           "folke/trouble.nvim",
           opts = {}, -- for default options, refer to the configuration section for custom setup.
           cmd = "Trouble",

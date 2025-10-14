@@ -9,3 +9,4 @@ vim.opt.smartindent = true
 vim.opt.scrolloff = 8
 vim.g.mapleader = ' '
 vim.o.signcolumn = "yes"
+vim.cmd.colorscheme('cyberdream-light')
