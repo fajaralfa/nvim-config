@@ -8,4 +8,4 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.scrolloff = 8
 vim.g.mapleader = ' '
-vim.cmd.colorscheme('morning')
+vim.o.signcolumn = "yes"
